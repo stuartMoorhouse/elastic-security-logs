@@ -29,27 +29,37 @@ Key messages:
 
 ## 2. Discover: search and explore (7 min)
 
-1. Open Discover, data view `logs-*`. Set the time range to the last 30 days: the histogram shows the full range.
+1. Open Discover, ES|QL mode. Search for: 
+
+´
+FROM logs-*
+| LIMIT 100
+´
+
+Set the time range to the last 30 days: the histogram shows the full range.
+
 2. Add the `host.os.type` and `data_stream.dataset` fields from the sidebar to show the split by OS and source.
-3. Open the saved searches (Open in the top menu):
-   - **Failed logons (Windows 4625 and Linux auth)**: one search across both operating systems.
+3. Open the saved session (Open in the top menu): **Security logs demo**. Each tab holds one ES|QL query:
+   - **Failed logons**: one query across Windows 4625 and Linux auth failures.
    - **Sudo usage**
    - **PowerShell activity**
-   - **New processes (Sysmon 1 and auditd execve)**
-4. Narrow in live: in the failed logons search click a `user.name` or `source.ip` value to filter, then pin the filter.
-5. Show a KQL query, for example `event.code: "4625" and host.name: *`, then switch to the other data views
-   (`logs-windows.*`, `logs-system.*`, `logs-auditd_manager.*`) to show scoping.
+   - **New processes** (Sysmon 1 and auditd execve)
+4. Narrow in live: in the Failed logons tab click a `user.name` or `source.ip` value to filter, then pin the filter.
+5. Edit the ES|QL in a tab, for example add `| WHERE host.name == "winws01"`, then change `FROM logs-*` to
+   `FROM logs-windows.*`, `logs-system.*` or `logs-auditd_manager.*` to show scoping.
 6. Open a document: show ECS fields next to the original message.
 
 ## 3. ES|QL in Discover (4 min)
 
-Switch Discover to ES|QL and paste queries from `config/esql-queries.md`:
+Stay in the **Security logs demo** session and move to the aggregation tabs. Each runs the matching query from
+`config/esql-queries.md`; set the time range to the last 30 days.
 
-1. Query 1, event volume per day by OS: a table plus the visualization.
-2. Query 4, brute-force pattern (more than 10 failures from one source in 5 minutes).
-3. Query 11, password spraying followed by a successful logon: the pipeline form of a correlation question.
+1. **Event volume by OS** (query 1): a table plus the visualization. Use the chart toggle to switch between them.
+2. **Brute force (5 min)** (query 4): more than 10 failures from one source in 5 minutes.
+3. **Spray then success** (query 11): password spraying followed by a successful logon, the pipeline form of a
+   correlation question.
 
-Save one as a Discover session to show that searches are reusable.
+To show that sessions are reusable, change a query in one tab and use Save to update the session, or Save as new.
 
 ## 4. Data management on Serverless (3 min)
 

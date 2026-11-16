@@ -59,24 +59,27 @@ DV="dv-industrial"
 DVB="$(tmp_json "{\"data_view\":{\"id\":\"$DV\",\"title\":\"logs-${PKG}.*\",\"name\":\"Industrial switches and gateways\",\"timeFieldName\":\"@timestamp\"},\"override\":true}")"
 kb POST "/api/data_views/data_view" "$DVB" >/dev/null && echo "ok: data view $DV (logs-${PKG}.*)"
 rm -f "$DVB"
-TAGB="$(tmp_json '{"attributes":{"name":"security-logs-demo","description":"Objects created by the security logs demo","color":"#E7664C"}}')"
-kb POST "/api/saved_objects/tag/tag-security-logs-demo?overwrite=true" "$TAGB" >/dev/null && echo "ok: tag security-logs-demo"
-rm -f "$TAGB"
-save_search() { # save_search <id> <title> <kql>
-  local b; b="$(tmp_json "$(python3 - "$DV" "$2" "$3" <<'PY'
-import json, sys
-dv, title, kql = sys.argv[1:4]
-src = {"query": {"query": kql, "language": "kuery"}, "filter": [], "indexRefName": "kibanaSavedObjectMeta.searchSourceJSON.index"}
-print(json.dumps({"attributes": {"title": title, "columns": ["host.name", "event.original"], "sort": [["@timestamp", "desc"]],
-  "kibanaSavedObjectMeta": {"searchSourceJSON": json.dumps(src)}},
-  "references": [{"name": "kibanaSavedObjectMeta.searchSourceJSON.index", "type": "index-pattern", "id": dv}, {"name": "tag-ref-1", "type": "tag", "id": "tag-security-logs-demo"}]}))
-PY
-)")"
-  kb POST "/api/saved_objects/search/$1?overwrite=true" "$b" >/dev/null && echo "ok: saved search $1"
-  rm -f "$b"
-}
-save_search "search-industrial-all" "Industrial devices - all events" "data_stream.dataset: ${PKG}.*"
-save_search "search-industrial-auth" "Industrial devices - login failures" "data_stream.dataset: ${PKG}.* and event.original: *ailed*"
+# DISABLED: the saved searches below are created with a direct POST to /api/saved_objects/...,
+# which Elastic Cloud Serverless rejects (HTTP 400, "not available with the current configuration").
+# If Automatic Import is used, rewrite this to build an ndjson file and use
+# POST /api/saved_objects/_import?overwrite=true (see configure.sh and config/saved-searches.ndjson).
+# TAGB="$(tmp_json '{"attributes":{"name":"security-logs-demo","description":"Objects created by the security logs demo","color":"#E7664C"}}')"
+# kb POST "/api/saved_objects/tag/tag-security-logs-demo?overwrite=true" "$TAGB" >/dev/null && echo "ok: tag security-logs-demo"
+# rm -f "$TAGB"
+# save_search() { # save_search <id> <title> <esql>
+#   local b; b="$(tmp_json "$(python3 - "$2" "$3" <<'PY'
+# import json, sys
+# title, esql = sys.argv[1:3]
+# print(json.dumps({"attributes": {"title": title, "columns": [], "sort": [["@timestamp", "desc"]], "isTextBasedQuery": True,
+#   "kibanaSavedObjectMeta": {"searchSourceJSON": json.dumps({"query": {"esql": esql}, "filter": []})}},
+#   "references": [{"name": "tag-ref-1", "type": "tag", "id": "tag-security-logs-demo"}]}))
+# PY
+# )")"
+#   kb POST "/api/saved_objects/search/$1?overwrite=true" "$b" >/dev/null && echo "ok: saved search $1"
+#   rm -f "$b"
+# }
+# save_search "search-industrial-all" "Industrial devices - all events" "FROM logs-${PKG}.* | SORT @timestamp DESC | KEEP @timestamp, host.name, event.original | LIMIT 500"
+# save_search "search-industrial-auth" "Industrial devices - login failures" "FROM logs-${PKG}.* | WHERE event.original LIKE \"*ailed*\" | SORT @timestamp DESC | KEEP @timestamp, host.name, event.original | LIMIT 500"
 
 echo "== ES|QL examples"
 OUT="$ROOT_DIR/results/industrial-esql-queries.md"

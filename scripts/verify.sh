@@ -74,8 +74,8 @@ so_dv="$(kb GET "/api/data_views" 2>/dev/null | pyj "len([o for o in d['data_vie
 EXP="$(tmp_json '{"type":"search"}')"
 so_ss="$(kb POST "/api/saved_objects/_export" "$EXP" 2>/dev/null | python3 -c 'import sys,json; print(sum(1 for l in sys.stdin if l.strip() and json.loads(l).get("type")=="search"))' 2>/dev/null || echo 0)"
 rm -f "$EXP"
-if [ "${so_dv:-0}" -ge 1 ] && [ "${so_ss:-0}" -ge 4 ]; then pass "8. $so_dv data views, $so_ss saved searches"
-else fail "8. Saved objects" "data views=$so_dv saved searches=$so_ss (expected >=1 / >=4)"; fi
+if [ "${so_dv:-0}" -ge 1 ] && [ "${so_ss:-0}" -ge 1 ]; then pass "8. $so_dv data views, $so_ss saved searches"
+else fail "8. Saved objects" "data views=$so_dv saved searches=$so_ss (expected >=1 / >=1)"; fi
 
 # 9. ES|QL example queries
 f="$CONFIG_DIR/esql-queries.md"
