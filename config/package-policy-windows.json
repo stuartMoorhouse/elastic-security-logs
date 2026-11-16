@@ -1,0 +1,22 @@
+{
+  "name": "windows-sysmon-powershell",
+  "description": "Sysmon Operational and PowerShell Operational channels via the Windows integration (metrics disabled)",
+  "namespace": "default",
+  "policy_ids": ["__POLICY_ID__"],
+  "package": {
+    "name": "windows",
+    "version": "__PKG_VERSION__"
+  },
+  "inputs": {
+    "windows-winlog": {
+      "enabled": true,
+      "streams": {
+        "windows.sysmon_operational": { "enabled": true },
+        "windows.powershell_operational": { "enabled": true },
+        "windows.powershell": { "enabled": false },
+        "windows.forwarded": { "enabled": false }
+      }
+    },
+    "windows-windows/metrics": { "enabled": false }
+  }
+}

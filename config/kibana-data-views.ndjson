@@ -1,0 +1,4 @@
+{"type": "index-pattern", "id": "dv-logs-all", "attributes": {"title": "logs-*", "name": "All logs", "timeFieldName": "@timestamp"}, "references": []}
+{"type": "index-pattern", "id": "dv-logs-system", "attributes": {"title": "logs-system.*", "name": "System integration logs (Linux auth/syslog, Windows Security/System/Application)", "timeFieldName": "@timestamp"}, "references": []}
+{"type": "index-pattern", "id": "dv-logs-windows", "attributes": {"title": "logs-windows.*", "name": "Windows integration logs (Sysmon, PowerShell)", "timeFieldName": "@timestamp"}, "references": []}
+{"type": "index-pattern", "id": "dv-logs-auditd", "attributes": {"title": "logs-auditd_manager.*", "name": "Linux Auditd Manager logs", "timeFieldName": "@timestamp"}, "references": []}

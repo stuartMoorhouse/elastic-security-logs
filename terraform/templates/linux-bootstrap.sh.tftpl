@@ -1,0 +1,15 @@
+#!/bin/bash -xe
+exec > >(tee /var/log/user-data.log) 2>&1
+
+export DEBIAN_FRONTEND=noninteractive
+apt-get update -y
+# auditd is installed for auditctl/ausearch tooling only; the daemon must NOT run
+# because Elastic Auditd Manager needs the kernel audit netlink socket.
+apt-get install -y auditd curl tar
+systemctl disable --now auditd || true
+
+cd /tmp
+curl -fsSL -o elastic-agent.tar.gz "https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-${agent_version}-linux-x86_64.tar.gz"
+tar xzf elastic-agent.tar.gz
+cd "elastic-agent-${agent_version}-linux-x86_64"
+./elastic-agent install --non-interactive --url="${fleet_url}" --enrollment-token="${enrollment_token}"

@@ -1,0 +1,35 @@
+param(
+  [string]$FleetUrl,
+  [string]$AgentVersion,
+  [string]$SysmonConfigUrl,
+  [string]$EnrollmentToken
+)
+$ErrorActionPreference = 'Stop'
+# The progress bar makes Invoke-WebRequest extremely slow in Windows PowerShell 5.1
+$ProgressPreference = 'SilentlyContinue'
+Start-Transcript -Path C:\bootstrap.log -Append
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+$work = 'C:\bootstrap'
+New-Item -ItemType Directory -Force -Path $work | Out-Null
+
+# Sysmon
+Invoke-WebRequest -UseBasicParsing -Uri 'https://download.sysinternals.com/files/Sysmon.zip' -OutFile "$work\Sysmon.zip"
+Expand-Archive -Force -Path "$work\Sysmon.zip" -DestinationPath "$work\Sysmon"
+Invoke-WebRequest -UseBasicParsing -Uri $SysmonConfigUrl -OutFile "$work\sysmonconfig.xml"
+if (-not (Get-Service -Name Sysmon64 -ErrorAction SilentlyContinue)) {
+  & "$work\Sysmon\Sysmon64.exe" -accepteula -i "$work\sysmonconfig.xml"
+} else {
+  & "$work\Sysmon\Sysmon64.exe" -c "$work\sysmonconfig.xml"
+}
+
+# Elastic Agent
+if (-not (Get-Service -Name 'Elastic Agent' -ErrorAction SilentlyContinue)) {
+  $zip = "$work\elastic-agent.zip"
+  # curl.exe resumes a partial download (-C -) and retries on failure
+  & curl.exe -sSfL --retry 5 --retry-delay 5 -C - -o $zip "https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-$AgentVersion-windows-x86_64.zip"
+  if ($LASTEXITCODE -ne 0) { throw "agent download failed (curl exit $LASTEXITCODE)" }
+  Expand-Archive -Force -Path $zip -DestinationPath $work
+  Set-Location "$work\elastic-agent-$AgentVersion-windows-x86_64"
+  .\elastic-agent.exe install --non-interactive --url=$FleetUrl --enrollment-token=$EnrollmentToken
+}
+Stop-Transcript

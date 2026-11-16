@@ -1,0 +1,18 @@
+region                    = "westeurope"
+ec_region                 = "azure-northeurope"
+prefix                    = "elastic-security-logs"
+agent_version             = "9.5.6"
+linux_vm_size             = "Standard_B2s"
+windows_vm_size           = "Standard_B2ms"
+admin_username            = "azureuser"
+encryption_at_host        = false
+allowed_cidr              = "" # empty = auto-detect your public IP
+
+# Required by the Azure subscription policy; replace with your own values (keep-until: yyyy-mm-dd, max 13 months out)
+tags = {
+  division   = "<division>"
+  org        = "<org>"
+  team       = "<team>"
+  project    = "<owner-email>"
+  keep-until = "yyyy-mm-dd"
+}

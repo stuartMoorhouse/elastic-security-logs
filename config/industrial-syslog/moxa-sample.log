@@ -1,0 +1,200 @@
+<28>1 2026-11-16T04:22:53.880Z EDS-408A-line1 moxa-evt 452 EVT2005 [meta sn="MOXA0023456" fw="v3.11"] Port 7 link down
+<30>1 2026-11-16T04:24:09.308Z EDS-G512E-cell3 moxa-evt 303 EVT2006 [meta sn="MOXA0012345" fw="v3.9"] Port 4 link up speed=100M duplex=full
+<28>1 2026-11-16T04:24:57.355Z TN-4516A-core moxa-evt 2482 EVT3010 [meta sn="MOXA0056789" fw="v3.6"] Turbo Ring: ring break detected on port 3 ring_id=1
+<29>1 2026-11-16T04:25:41.736Z EDS-G512E-cell3 moxa-evt 1117 EVT3011 [meta sn="MOXA0012345" fw="v3.9"] Turbo Ring: ring recovered ring_id=1 role=master
+<28>1 2026-11-16T04:26:25.451Z EDS-408A-line1 moxa-evt 3201 EVT4001 [meta sn="MOXA0023456" fw="v3.11"] Modbus timeout serial_port=4 slave_id=29 count=3
+<30>1 2026-11-16T04:27:28.606Z MGate-5109-line2 moxa-evt 381 EVT4002 [meta sn="MOXA0045678" fw="v4.3"] Modbus TCP connection closed client=10.40.8.15 port=502
+<28>1 2026-11-16T04:28:00.573Z MGate-5105-line1 moxa-evt 788 EVT5001 [meta sn="MOXA0034567" fw="v4.2"] Login failed user=root src=198.51.100.77 method=https
+<29>1 2026-11-16T04:28:35.078Z EDS-G512E-cell3 moxa-evt 2350 EVT5002 [meta sn="MOXA0012345" fw="v3.9"] Configuration changed by user=operator via https
+<28>1 2026-11-16T04:29:30.982Z EDS-408A-line1 moxa-evt 149 EVT6001 [meta sn="MOXA0023456" fw="v3.11"] Digital input DI2 changed to ON
+<29>1 2026-11-16T04:30:53.833Z TN-4516A-core moxa-evt 2928 EVT1001 [meta sn="MOXA0056789" fw="v3.6"] Cold start firmware=v3.6
+<30>1 2026-11-16T04:32:19.806Z EDS-G512E-cell3 moxa-evt 955 EVT4002 [meta sn="MOXA0012345" fw="v3.9"] Modbus TCP connection accepted client=10.40.8.17 port=502
+<28>1 2026-11-16T04:33:35.972Z TN-4516A-core moxa-evt 708 EVT2005 [meta sn="MOXA0056789" fw="v3.6"] Port 1 link down
+<30>1 2026-11-16T04:34:28.950Z MGate-5105-line1 moxa-evt 3170 EVT2006 [meta sn="MOXA0034567" fw="v4.2"] Port 8 link up speed=100M duplex=full
+<30>1 2026-11-16T04:35:32.708Z EDS-408A-line1 moxa-evt 3820 EVT2006 [meta sn="MOXA0023456" fw="v3.11"] Port 1 link up speed=100M duplex=full
+<30>1 2026-11-16T04:36:14.072Z TN-4516A-core moxa-evt 214 EVT4002 [meta sn="MOXA0056789" fw="v3.6"] Modbus TCP connection closed client=10.40.8.13 port=502
+<30>1 2026-11-16T04:37:09.555Z TN-4516A-core moxa-evt 2076 EVT2006 [meta sn="MOXA0056789" fw="v3.6"] Port 6 link up speed=1000M duplex=full
+<28>1 2026-11-16T04:37:30.045Z MGate-5105-line1 moxa-evt 1997 EVT6001 [meta sn="MOXA0034567" fw="v4.2"] Digital input DI1 changed to OFF
+<28>1 2026-11-16T04:38:41.806Z EDS-408A-line1 moxa-evt 2347 EVT6001 [meta sn="MOXA0023456" fw="v3.11"] Digital input DI3 changed to ON
+<28>1 2026-11-16T04:40:11.940Z EDS-G512E-cell3 moxa-evt 1162 EVT2005 [meta sn="MOXA0012345" fw="v3.9"] Port 3 link down
+<28>1 2026-11-16T04:41:41.369Z EDS-G512E-cell3 moxa-evt 3278 EVT5001 [meta sn="MOXA0012345" fw="v3.9"] Login failed user=admin src=10.40.5.20 method=ssh
+<28>1 2026-11-16T04:42:20.545Z TN-4516A-core moxa-evt 272 EVT2005 [meta sn="MOXA0056789" fw="v3.6"] Port 2 link down
+<29>1 2026-11-16T04:42:53.064Z EDS-G512E-cell3 moxa-evt 2963 EVT3011 [meta sn="MOXA0012345" fw="v3.9"] Turbo Ring: ring recovered ring_id=1 role=master
+<29>1 2026-11-16T04:44:19.961Z MGate-5105-line1 moxa-evt 399 EVT5002 [meta sn="MOXA0034567" fw="v4.2"] Configuration changed by user=operator via telnet
+<30>1 2026-11-16T04:45:07.646Z EDS-G512E-cell3 moxa-evt 2835 EVT2006 [meta sn="MOXA0012345" fw="v3.9"] Port 3 link up speed=1000M duplex=full
+<30>1 2026-11-16T04:45:55.811Z TN-4516A-core moxa-evt 1904 EVT4002 [meta sn="MOXA0056789" fw="v3.6"] Modbus TCP connection closed client=10.40.8.11 port=502
+<30>1 2026-11-16T04:46:18.204Z TN-4516A-core moxa-evt 3195 EVT2006 [meta sn="MOXA0056789" fw="v3.6"] Port 5 link up speed=100M duplex=full
+<29>1 2026-11-16T04:46:55.043Z MGate-5105-line1 moxa-evt 1201 EVT3011 [meta sn="MOXA0034567" fw="v4.2"] Turbo Ring: ring recovered ring_id=1 role=master
+<28>1 2026-11-16T04:47:17.692Z MGate-5105-line1 moxa-evt 276 EVT2005 [meta sn="MOXA0034567" fw="v4.2"] Port 2 link down
+<30>1 2026-11-16T04:48:45.418Z EDS-G512E-cell3 moxa-evt 1208 EVT2006 [meta sn="MOXA0012345" fw="v3.9"] Port 3 link up speed=1000M duplex=full
+<28>1 2026-11-16T04:49:50.240Z MGate-5105-line1 moxa-evt 2789 EVT2005 [meta sn="MOXA0034567" fw="v4.2"] Port 1 link down
+<28>1 2026-11-16T04:51:13.799Z MGate-5109-line2 moxa-evt 1864 EVT5001 [meta sn="MOXA0045678" fw="v4.3"] Login failed user=operator src=10.40.5.20 method=https
+<28>1 2026-11-16T04:51:53.855Z MGate-5109-line2 moxa-evt 1447 EVT2005 [meta sn="MOXA0045678" fw="v4.3"] Port 5 link down
+<30>1 2026-11-16T04:53:24.186Z MGate-5105-line1 moxa-evt 2167 EVT2006 [meta sn="MOXA0034567" fw="v4.2"] Port 4 link up speed=1000M duplex=full
+<30>1 2026-11-16T04:53:44.279Z EDS-G512E-cell3 moxa-evt 3230 EVT2006 [meta sn="MOXA0012345" fw="v3.9"] Port 3 link up speed=1000M duplex=full
+<28>1 2026-11-16T04:54:46.016Z EDS-408A-line1 moxa-evt 448 EVT6001 [meta sn="MOXA0023456" fw="v3.11"] Digital input DI1 changed to ON
+<28>1 2026-11-16T04:55:09.058Z MGate-5105-line1 moxa-evt 1971 EVT2005 [meta sn="MOXA0034567" fw="v4.2"] Port 2 link down
+<28>1 2026-11-16T04:55:37.824Z TN-4516A-core moxa-evt 3563 EVT6001 [meta sn="MOXA0056789" fw="v3.6"] Digital input DI4 changed to OFF
+<28>1 2026-11-16T04:56:45.902Z MGate-5105-line1 moxa-evt 151 EVT4001 [meta sn="MOXA0034567" fw="v4.2"] Modbus timeout serial_port=1 slave_id=20 count=2
+<28>1 2026-11-16T04:58:06.964Z EDS-G512E-cell3 moxa-evt 451 EVT4001 [meta sn="MOXA0012345" fw="v3.9"] Modbus timeout serial_port=3 slave_id=23 count=5
+<30>1 2026-11-16T04:59:26.981Z EDS-G512E-cell3 moxa-evt 643 EVT2006 [meta sn="MOXA0012345" fw="v3.9"] Port 8 link up speed=1000M duplex=full
+<29>1 2026-11-16T05:00:52.267Z MGate-5105-line1 moxa-evt 3078 EVT5002 [meta sn="MOXA0034567" fw="v4.2"] Configuration changed by user=operator via ssh
+<30>1 2026-11-16T05:01:30.693Z MGate-5105-line1 moxa-evt 1624 EVT2006 [meta sn="MOXA0034567" fw="v4.2"] Port 2 link up speed=1000M duplex=full
+<28>1 2026-11-16T05:01:59.095Z TN-4516A-core moxa-evt 1121 EVT3010 [meta sn="MOXA0056789" fw="v3.6"] Turbo Ring: ring break detected on port 2 ring_id=1
+<28>1 2026-11-16T05:02:53.541Z EDS-408A-line1 moxa-evt 2739 EVT4001 [meta sn="MOXA0023456" fw="v3.11"] Modbus timeout serial_port=1 slave_id=26 count=4
+<28>1 2026-11-16T05:03:50.038Z TN-4516A-core moxa-evt 2786 EVT2005 [meta sn="MOXA0056789" fw="v3.6"] Port 3 link down
+<28>1 2026-11-16T05:04:40.346Z MGate-5109-line2 moxa-evt 671 EVT4001 [meta sn="MOXA0045678" fw="v4.3"] Modbus timeout serial_port=2 slave_id=3 count=2
+<30>1 2026-11-16T05:06:10.543Z EDS-408A-line1 moxa-evt 1795 EVT2006 [meta sn="MOXA0023456" fw="v3.11"] Port 6 link up speed=100M duplex=full
+<28>1 2026-11-16T05:07:37.758Z MGate-5105-line1 moxa-evt 3773 EVT3010 [meta sn="MOXA0034567" fw="v4.2"] Turbo Ring: ring break detected on port 1 ring_id=1
+<28>1 2026-11-16T05:08:29.151Z MGate-5109-line2 moxa-evt 3910 EVT3010 [meta sn="MOXA0045678" fw="v4.3"] Turbo Ring: ring break detected on port 7 ring_id=1
+<28>1 2026-11-16T05:09:57.026Z MGate-5109-line2 moxa-evt 1052 EVT4001 [meta sn="MOXA0045678" fw="v4.3"] Modbus timeout serial_port=2 slave_id=5 count=2
+<30>1 2026-11-16T05:10:21.686Z EDS-408A-line1 moxa-evt 3337 EVT4002 [meta sn="MOXA0023456" fw="v3.11"] Modbus TCP connection closed client=10.40.8.18 port=502
+<28>1 2026-11-16T05:10:41.696Z MGate-5109-line2 moxa-evt 189 EVT4001 [meta sn="MOXA0045678" fw="v4.3"] Modbus timeout serial_port=2 slave_id=16 count=5
+<29>1 2026-11-16T05:11:26.206Z MGate-5109-line2 moxa-evt 1584 EVT5002 [meta sn="MOXA0045678" fw="v4.3"] Configuration changed by user=operator via telnet
+<28>1 2026-11-16T05:12:36.408Z MGate-5105-line1 moxa-evt 3999 EVT2005 [meta sn="MOXA0034567" fw="v4.2"] Port 2 link down
+<28>1 2026-11-16T05:14:00.032Z EDS-408A-line1 moxa-evt 312 EVT2005 [meta sn="MOXA0023456" fw="v3.11"] Port 8 link down
+<28>1 2026-11-16T05:14:27.220Z MGate-5105-line1 moxa-evt 3537 EVT3010 [meta sn="MOXA0034567" fw="v4.2"] Turbo Ring: ring break detected on port 2 ring_id=1
+<29>1 2026-11-16T05:15:34.559Z EDS-G512E-cell3 moxa-evt 3466 EVT3011 [meta sn="MOXA0012345" fw="v3.9"] Turbo Ring: ring recovered ring_id=1 role=master
+<28>1 2026-11-16T05:16:49.648Z MGate-5109-line2 moxa-evt 266 EVT2005 [meta sn="MOXA0045678" fw="v4.3"] Port 4 link down
+<28>1 2026-11-16T05:17:57.683Z EDS-G512E-cell3 moxa-evt 3157 EVT4001 [meta sn="MOXA0012345" fw="v3.9"] Modbus timeout serial_port=1 slave_id=29 count=5
+<30>1 2026-11-16T05:18:58.629Z EDS-G512E-cell3 moxa-evt 849 EVT2006 [meta sn="MOXA0012345" fw="v3.9"] Port 2 link up speed=100M duplex=full
+<28>1 2026-11-16T05:19:20.450Z MGate-5105-line1 moxa-evt 3183 EVT6001 [meta sn="MOXA0034567" fw="v4.2"] Digital input DI2 changed to OFF
+<28>1 2026-11-16T05:20:00.703Z EDS-G512E-cell3 moxa-evt 2141 EVT3010 [meta sn="MOXA0012345" fw="v3.9"] Turbo Ring: ring break detected on port 8 ring_id=1
+<30>1 2026-11-16T05:21:17.880Z MGate-5109-line2 moxa-evt 915 EVT2006 [meta sn="MOXA0045678" fw="v4.3"] Port 8 link up speed=100M duplex=full
+<28>1 2026-11-16T05:22:34.133Z EDS-408A-line1 moxa-evt 2776 EVT2005 [meta sn="MOXA0023456" fw="v3.11"] Port 3 link down
+<28>1 2026-11-16T05:23:53.170Z MGate-5109-line2 moxa-evt 1624 EVT2005 [meta sn="MOXA0045678" fw="v4.3"] Port 4 link down
+<28>1 2026-11-16T05:25:19.056Z TN-4516A-core moxa-evt 935 EVT2005 [meta sn="MOXA0056789" fw="v3.6"] Port 5 link down
+<30>1 2026-11-16T05:26:11.095Z EDS-408A-line1 moxa-evt 2344 EVT4002 [meta sn="MOXA0023456" fw="v3.11"] Modbus TCP connection accepted client=10.40.8.19 port=502
+<28>1 2026-11-16T05:27:32.159Z MGate-5109-line2 moxa-evt 3152 EVT3010 [meta sn="MOXA0045678" fw="v4.3"] Turbo Ring: ring break detected on port 3 ring_id=1
+<28>1 2026-11-16T05:28:37.583Z MGate-5105-line1 moxa-evt 1987 EVT3010 [meta sn="MOXA0034567" fw="v4.2"] Turbo Ring: ring break detected on port 4 ring_id=1
+<28>1 2026-11-16T05:29:17.716Z TN-4516A-core moxa-evt 2234 EVT2005 [meta sn="MOXA0056789" fw="v3.6"] Port 3 link down
+<28>1 2026-11-16T05:29:59.663Z MGate-5109-line2 moxa-evt 3803 EVT2005 [meta sn="MOXA0045678" fw="v4.3"] Port 8 link down
+<30>1 2026-11-16T05:30:40.318Z EDS-408A-line1 moxa-evt 604 EVT4002 [meta sn="MOXA0023456" fw="v3.11"] Modbus TCP connection accepted client=10.40.8.10 port=502
+<28>1 2026-11-16T05:31:19.570Z EDS-408A-line1 moxa-evt 2486 EVT6001 [meta sn="MOXA0023456" fw="v3.11"] Digital input DI4 changed to OFF
+<28>1 2026-11-16T05:32:11.005Z MGate-5105-line1 moxa-evt 3419 EVT3010 [meta sn="MOXA0034567" fw="v4.2"] Turbo Ring: ring break detected on port 8 ring_id=1
+<28>1 2026-11-16T05:33:31.414Z EDS-408A-line1 moxa-evt 322 EVT2005 [meta sn="MOXA0023456" fw="v3.11"] Port 6 link down
+<28>1 2026-11-16T05:34:56.330Z EDS-408A-line1 moxa-evt 3512 EVT3010 [meta sn="MOXA0023456" fw="v3.11"] Turbo Ring: ring break detected on port 1 ring_id=1
+<30>1 2026-11-16T05:36:00.955Z EDS-408A-line1 moxa-evt 1624 EVT4002 [meta sn="MOXA0023456" fw="v3.11"] Modbus TCP connection closed client=10.40.8.13 port=502
+<28>1 2026-11-16T05:36:25.158Z EDS-408A-line1 moxa-evt 1132 EVT2005 [meta sn="MOXA0023456" fw="v3.11"] Port 5 link down
+<28>1 2026-11-16T05:37:53.802Z MGate-5105-line1 moxa-evt 3458 EVT5001 [meta sn="MOXA0034567" fw="v4.2"] Login failed user=admin src=203.0.113.45 method=telnet
+<30>1 2026-11-16T05:39:20.061Z TN-4516A-core moxa-evt 640 EVT2006 [meta sn="MOXA0056789" fw="v3.6"] Port 6 link up speed=100M duplex=full
+<30>1 2026-11-16T05:40:42.293Z EDS-G512E-cell3 moxa-evt 2490 EVT4002 [meta sn="MOXA0012345" fw="v3.9"] Modbus TCP connection closed client=10.40.8.11 port=502
+<28>1 2026-11-16T05:41:40.896Z MGate-5105-line1 moxa-evt 1746 EVT2005 [meta sn="MOXA0034567" fw="v4.2"] Port 8 link down
+<28>1 2026-11-16T05:42:34.886Z TN-4516A-core moxa-evt 1073 EVT2005 [meta sn="MOXA0056789" fw="v3.6"] Port 6 link down
+<28>1 2026-11-16T05:43:14.945Z EDS-G512E-cell3 moxa-evt 2663 EVT6001 [meta sn="MOXA0012345" fw="v3.9"] Digital input DI1 changed to OFF
+<30>1 2026-11-16T05:43:41.855Z MGate-5109-line2 moxa-evt 2737 EVT4002 [meta sn="MOXA0045678" fw="v4.3"] Modbus TCP connection accepted client=10.40.8.17 port=502
+<30>1 2026-11-16T05:44:05.981Z MGate-5105-line1 moxa-evt 1166 EVT2006 [meta sn="MOXA0034567" fw="v4.2"] Port 1 link up speed=1000M duplex=full
+<30>1 2026-11-16T05:44:56.842Z EDS-408A-line1 moxa-evt 3539 EVT4002 [meta sn="MOXA0023456" fw="v3.11"] Modbus TCP connection accepted client=10.40.8.16 port=502
+<28>1 2026-11-16T05:46:24.556Z EDS-G512E-cell3 moxa-evt 234 EVT2005 [meta sn="MOXA0012345" fw="v3.9"] Port 7 link down
+<28>1 2026-11-16T05:46:47.670Z EDS-408A-line1 moxa-evt 3608 EVT2005 [meta sn="MOXA0023456" fw="v3.11"] Port 6 link down
+<28>1 2026-11-16T05:47:53.874Z TN-4516A-core moxa-evt 509 EVT5001 [meta sn="MOXA0056789" fw="v3.6"] Login failed user=admin src=203.0.113.45 method=telnet
+<28>1 2026-11-16T05:48:29.974Z EDS-408A-line1 moxa-evt 3250 EVT5001 [meta sn="MOXA0023456" fw="v3.11"] Login failed user=operator src=10.40.5.20 method=telnet
+<28>1 2026-11-16T05:49:54.461Z TN-4516A-core moxa-evt 2453 EVT5001 [meta sn="MOXA0056789" fw="v3.6"] Login failed user=operator src=10.40.5.22 method=telnet
+<29>1 2026-11-16T05:50:50.635Z TN-4516A-core moxa-evt 3507 EVT3011 [meta sn="MOXA0056789" fw="v3.6"] Turbo Ring: ring recovered ring_id=1 role=master
+<28>1 2026-11-16T05:52:15.901Z EDS-408A-line1 moxa-evt 1556 EVT4001 [meta sn="MOXA0023456" fw="v3.11"] Modbus timeout serial_port=2 slave_id=16 count=2
+<28>1 2026-11-16T05:52:48.311Z EDS-G512E-cell3 moxa-evt 3966 EVT6001 [meta sn="MOXA0012345" fw="v3.9"] Digital input DI4 changed to ON
+<28>1 2026-11-16T05:54:06.440Z TN-4516A-core moxa-evt 2922 EVT4001 [meta sn="MOXA0056789" fw="v3.6"] Modbus timeout serial_port=3 slave_id=17 count=2
+<30>1 2026-11-16T05:54:59.033Z MGate-5105-line1 moxa-evt 1067 EVT2006 [meta sn="MOXA0034567" fw="v4.2"] Port 8 link up speed=100M duplex=full
+<28>1 2026-11-16T05:56:01.011Z EDS-G512E-cell3 moxa-evt 547 EVT2005 [meta sn="MOXA0012345" fw="v3.9"] Port 3 link down
+<30>1 2026-11-16T05:56:34.298Z MGate-5109-line2 moxa-evt 1153 EVT2006 [meta sn="MOXA0045678" fw="v4.3"] Port 8 link up speed=100M duplex=full
+<30>1 2026-11-16T05:57:45.303Z MGate-5109-line2 moxa-evt 1092 EVT4002 [meta sn="MOXA0045678" fw="v4.3"] Modbus TCP connection accepted client=10.40.8.17 port=502
+<30>1 2026-11-16T05:58:57.033Z EDS-408A-line1 moxa-evt 1692 EVT4002 [meta sn="MOXA0023456" fw="v3.11"] Modbus TCP connection closed client=10.40.8.18 port=502
+<28>1 2026-11-16T06:00:19.962Z EDS-G512E-cell3 moxa-evt 2197 EVT6001 [meta sn="MOXA0012345" fw="v3.9"] Digital input DI2 changed to OFF
+<28>1 2026-11-16T06:00:42.616Z MGate-5105-line1 moxa-evt 1223 EVT5001 [meta sn="MOXA0034567" fw="v4.2"] Login failed user=admin src=10.40.5.22 method=ssh
+<28>1 2026-11-16T06:01:51.025Z EDS-G512E-cell3 moxa-evt 1992 EVT2005 [meta sn="MOXA0012345" fw="v3.9"] Port 7 link down
+<28>1 2026-11-16T06:02:38.193Z EDS-G512E-cell3 moxa-evt 1553 EVT2005 [meta sn="MOXA0012345" fw="v3.9"] Port 4 link down
+<30>1 2026-11-16T06:03:27.466Z MGate-5105-line1 moxa-evt 1855 EVT4002 [meta sn="MOXA0034567" fw="v4.2"] Modbus TCP connection closed client=10.40.8.13 port=502
+<29>1 2026-11-16T06:03:58.141Z EDS-408A-line1 moxa-evt 959 EVT5002 [meta sn="MOXA0023456" fw="v3.11"] Configuration changed by user=root via telnet
+<30>1 2026-11-16T06:04:27.812Z TN-4516A-core moxa-evt 2838 EVT2006 [meta sn="MOXA0056789" fw="v3.6"] Port 2 link up speed=100M duplex=full
+<30>1 2026-11-16T06:05:58.618Z MGate-5105-line1 moxa-evt 3487 EVT4002 [meta sn="MOXA0034567" fw="v4.2"] Modbus TCP connection closed client=10.40.8.11 port=502
+<28>1 2026-11-16T06:06:36.102Z EDS-G512E-cell3 moxa-evt 3543 EVT4001 [meta sn="MOXA0012345" fw="v3.9"] Modbus timeout serial_port=2 slave_id=23 count=4
+<30>1 2026-11-16T06:07:37.581Z MGate-5109-line2 moxa-evt 2597 EVT4002 [meta sn="MOXA0045678" fw="v4.3"] Modbus TCP connection accepted client=10.40.8.12 port=502
+<30>1 2026-11-16T06:08:03.279Z MGate-5105-line1 moxa-evt 486 EVT4002 [meta sn="MOXA0034567" fw="v4.2"] Modbus TCP connection accepted client=10.40.8.13 port=502
+<28>1 2026-11-16T06:09:09.628Z TN-4516A-core moxa-evt 1753 EVT4001 [meta sn="MOXA0056789" fw="v3.6"] Modbus timeout serial_port=4 slave_id=11 count=4
+<28>1 2026-11-16T06:10:12.143Z TN-4516A-core moxa-evt 3312 EVT6001 [meta sn="MOXA0056789" fw="v3.6"] Digital input DI2 changed to ON
+<30>1 2026-11-16T06:10:37.551Z MGate-5109-line2 moxa-evt 2625 EVT4002 [meta sn="MOXA0045678" fw="v4.3"] Modbus TCP connection accepted client=10.40.8.13 port=502
+<30>1 2026-11-16T06:11:16.192Z TN-4516A-core moxa-evt 3844 EVT4002 [meta sn="MOXA0056789" fw="v3.6"] Modbus TCP connection accepted client=10.40.8.11 port=502
+<29>1 2026-11-16T06:11:37.569Z EDS-408A-line1 moxa-evt 2424 EVT5002 [meta sn="MOXA0023456" fw="v3.11"] Configuration changed by user=admin via telnet
+<28>1 2026-11-16T06:13:03.609Z MGate-5109-line2 moxa-evt 3769 EVT5001 [meta sn="MOXA0045678" fw="v4.3"] Login failed user=operator src=10.40.5.20 method=telnet
+<28>1 2026-11-16T06:13:43.250Z EDS-G512E-cell3 moxa-evt 3104 EVT2005 [meta sn="MOXA0012345" fw="v3.9"] Port 1 link down
+<28>1 2026-11-16T06:14:27.194Z EDS-408A-line1 moxa-evt 1374 EVT2005 [meta sn="MOXA0023456" fw="v3.11"] Port 2 link down
+<30>1 2026-11-16T06:15:26.940Z MGate-5109-line2 moxa-evt 2053 EVT4002 [meta sn="MOXA0045678" fw="v4.3"] Modbus TCP connection closed client=10.40.8.12 port=502
+<30>1 2026-11-16T06:16:36.736Z MGate-5105-line1 moxa-evt 3737 EVT4002 [meta sn="MOXA0034567" fw="v4.2"] Modbus TCP connection closed client=10.40.8.19 port=502
+<28>1 2026-11-16T06:17:28.121Z MGate-5109-line2 moxa-evt 3512 EVT3010 [meta sn="MOXA0045678" fw="v4.3"] Turbo Ring: ring break detected on port 4 ring_id=1
+<29>1 2026-11-16T06:18:06.952Z TN-4516A-core moxa-evt 1367 EVT5002 [meta sn="MOXA0056789" fw="v3.6"] Configuration changed by user=root via ssh
+<28>1 2026-11-16T06:18:34.645Z EDS-408A-line1 moxa-evt 3725 EVT3010 [meta sn="MOXA0023456" fw="v3.11"] Turbo Ring: ring break detected on port 5 ring_id=1
+<28>1 2026-11-16T06:20:00.973Z TN-4516A-core moxa-evt 3293 EVT4001 [meta sn="MOXA0056789" fw="v3.6"] Modbus timeout serial_port=2 slave_id=7 count=1
+<28>1 2026-11-16T06:21:27.850Z EDS-G512E-cell3 moxa-evt 2227 EVT2005 [meta sn="MOXA0012345" fw="v3.9"] Port 8 link down
+<28>1 2026-11-16T06:21:49.946Z TN-4516A-core moxa-evt 3555 EVT2005 [meta sn="MOXA0056789" fw="v3.6"] Port 8 link down
+<30>1 2026-11-16T06:22:14.292Z EDS-408A-line1 moxa-evt 2993 EVT2006 [meta sn="MOXA0023456" fw="v3.11"] Port 7 link up speed=100M duplex=full
+<30>1 2026-11-16T06:22:45.555Z EDS-408A-line1 moxa-evt 3955 EVT2006 [meta sn="MOXA0023456" fw="v3.11"] Port 2 link up speed=1000M duplex=full
+<28>1 2026-11-16T06:23:50.615Z EDS-G512E-cell3 moxa-evt 3204 EVT6001 [meta sn="MOXA0012345" fw="v3.9"] Digital input DI3 changed to OFF
+<30>1 2026-11-16T06:24:24.097Z MGate-5105-line1 moxa-evt 3037 EVT2006 [meta sn="MOXA0034567" fw="v4.2"] Port 7 link up speed=100M duplex=full
+<28>1 2026-11-16T06:25:08.915Z EDS-408A-line1 moxa-evt 1421 EVT2005 [meta sn="MOXA0023456" fw="v3.11"] Port 2 link down
+<28>1 2026-11-16T06:25:58.403Z MGate-5105-line1 moxa-evt 1813 EVT2005 [meta sn="MOXA0034567" fw="v4.2"] Port 3 link down
+<28>1 2026-11-16T06:27:10.655Z MGate-5105-line1 moxa-evt 2684 EVT2005 [meta sn="MOXA0034567" fw="v4.2"] Port 5 link down
+<28>1 2026-11-16T06:27:58.228Z MGate-5105-line1 moxa-evt 3770 EVT4001 [meta sn="MOXA0034567" fw="v4.2"] Modbus timeout serial_port=2 slave_id=12 count=4
+<28>1 2026-11-16T06:28:38.286Z MGate-5105-line1 moxa-evt 266 EVT5001 [meta sn="MOXA0034567" fw="v4.2"] Login failed user=admin src=198.51.100.77 method=https
+<30>1 2026-11-16T06:29:50.509Z EDS-408A-line1 moxa-evt 818 EVT2006 [meta sn="MOXA0023456" fw="v3.11"] Port 3 link up speed=100M duplex=full
+<30>1 2026-11-16T06:30:36.649Z EDS-408A-line1 moxa-evt 469 EVT4002 [meta sn="MOXA0023456" fw="v3.11"] Modbus TCP connection closed client=10.40.8.10 port=502
+<28>1 2026-11-16T06:30:58.068Z MGate-5109-line2 moxa-evt 2229 EVT6001 [meta sn="MOXA0045678" fw="v4.3"] Digital input DI1 changed to OFF
+<28>1 2026-11-16T06:32:16.059Z EDS-G512E-cell3 moxa-evt 2272 EVT4001 [meta sn="MOXA0012345" fw="v3.9"] Modbus timeout serial_port=3 slave_id=25 count=4
+<28>1 2026-11-16T06:33:44.196Z EDS-G512E-cell3 moxa-evt 172 EVT2005 [meta sn="MOXA0012345" fw="v3.9"] Port 4 link down
+<30>1 2026-11-16T06:35:03.731Z MGate-5109-line2 moxa-evt 599 EVT2006 [meta sn="MOXA0045678" fw="v4.3"] Port 2 link up speed=1000M duplex=full
+<29>1 2026-11-16T06:35:39.146Z TN-4516A-core moxa-evt 2545 EVT5002 [meta sn="MOXA0056789" fw="v3.6"] Configuration changed by user=admin via telnet
+<28>1 2026-11-16T06:37:06.183Z EDS-G512E-cell3 moxa-evt 2219 EVT3010 [meta sn="MOXA0012345" fw="v3.9"] Turbo Ring: ring break detected on port 6 ring_id=1
+<30>1 2026-11-16T06:37:45.163Z MGate-5105-line1 moxa-evt 671 EVT4002 [meta sn="MOXA0034567" fw="v4.2"] Modbus TCP connection accepted client=10.40.8.11 port=502
+<28>1 2026-11-16T06:38:59.155Z MGate-5109-line2 moxa-evt 1126 EVT3010 [meta sn="MOXA0045678" fw="v4.3"] Turbo Ring: ring break detected on port 1 ring_id=1
+<28>1 2026-11-16T06:39:34.687Z EDS-408A-line1 moxa-evt 2010 EVT2005 [meta sn="MOXA0023456" fw="v3.11"] Port 1 link down
+<28>1 2026-11-16T06:41:03.641Z EDS-G512E-cell3 moxa-evt 2598 EVT2005 [meta sn="MOXA0012345" fw="v3.9"] Port 3 link down
+<28>1 2026-11-16T06:41:52.306Z TN-4516A-core moxa-evt 2198 EVT3010 [meta sn="MOXA0056789" fw="v3.6"] Turbo Ring: ring break detected on port 6 ring_id=1
+<28>1 2026-11-16T06:43:21.698Z MGate-5109-line2 moxa-evt 1310 EVT6001 [meta sn="MOXA0045678" fw="v4.3"] Digital input DI3 changed to ON
+<28>1 2026-11-16T06:43:49.488Z TN-4516A-core moxa-evt 1807 EVT2005 [meta sn="MOXA0056789" fw="v3.6"] Port 2 link down
+<30>1 2026-11-16T06:44:53.172Z EDS-408A-line1 moxa-evt 1728 EVT2006 [meta sn="MOXA0023456" fw="v3.11"] Port 5 link up speed=100M duplex=full
+<28>1 2026-11-16T06:45:32.599Z MGate-5105-line1 moxa-evt 3323 EVT5001 [meta sn="MOXA0034567" fw="v4.2"] Login failed user=operator src=198.51.100.77 method=telnet
+<29>1 2026-11-16T06:46:55.988Z EDS-408A-line1 moxa-evt 936 EVT3011 [meta sn="MOXA0023456" fw="v3.11"] Turbo Ring: ring recovered ring_id=1 role=master
+<28>1 2026-11-16T06:48:10.900Z EDS-G512E-cell3 moxa-evt 1695 EVT6001 [meta sn="MOXA0012345" fw="v3.9"] Digital input DI4 changed to OFF
+<28>1 2026-11-16T06:49:30.266Z MGate-5105-line1 moxa-evt 1825 EVT2005 [meta sn="MOXA0034567" fw="v4.2"] Port 8 link down
+<29>1 2026-11-16T06:50:52.677Z TN-4516A-core moxa-evt 2925 EVT3011 [meta sn="MOXA0056789" fw="v3.6"] Turbo Ring: ring recovered ring_id=1 role=master
+<28>1 2026-11-16T06:51:56.517Z TN-4516A-core moxa-evt 1546 EVT6001 [meta sn="MOXA0056789" fw="v3.6"] Digital input DI1 changed to ON
+<28>1 2026-11-16T06:52:22.225Z EDS-G512E-cell3 moxa-evt 2453 EVT3010 [meta sn="MOXA0012345" fw="v3.9"] Turbo Ring: ring break detected on port 5 ring_id=1
+<30>1 2026-11-16T06:53:07.645Z EDS-408A-line1 moxa-evt 2762 EVT4002 [meta sn="MOXA0023456" fw="v3.11"] Modbus TCP connection accepted client=10.40.8.18 port=502
+<30>1 2026-11-16T06:53:29.345Z MGate-5105-line1 moxa-evt 885 EVT4002 [meta sn="MOXA0034567" fw="v4.2"] Modbus TCP connection accepted client=10.40.8.14 port=502
+<28>1 2026-11-16T06:54:46.983Z EDS-G512E-cell3 moxa-evt 125 EVT3010 [meta sn="MOXA0012345" fw="v3.9"] Turbo Ring: ring break detected on port 4 ring_id=1
+<29>1 2026-11-16T06:56:05.293Z MGate-5105-line1 moxa-evt 3347 EVT3011 [meta sn="MOXA0034567" fw="v4.2"] Turbo Ring: ring recovered ring_id=1 role=master
+<28>1 2026-11-16T06:56:56.382Z MGate-5105-line1 moxa-evt 1751 EVT2005 [meta sn="MOXA0034567" fw="v4.2"] Port 7 link down
+<28>1 2026-11-16T06:57:25.366Z MGate-5105-line1 moxa-evt 3396 EVT2005 [meta sn="MOXA0034567" fw="v4.2"] Port 4 link down
+<30>1 2026-11-16T06:58:04.613Z EDS-G512E-cell3 moxa-evt 1643 EVT4002 [meta sn="MOXA0012345" fw="v3.9"] Modbus TCP connection closed client=10.40.8.13 port=502
+<28>1 2026-11-16T06:58:50.917Z TN-4516A-core moxa-evt 2591 EVT6001 [meta sn="MOXA0056789" fw="v3.6"] Digital input DI2 changed to OFF
+<28>1 2026-11-16T07:00:16.134Z EDS-G512E-cell3 moxa-evt 3279 EVT2005 [meta sn="MOXA0012345" fw="v3.9"] Port 2 link down
+<28>1 2026-11-16T07:01:05.462Z EDS-G512E-cell3 moxa-evt 1557 EVT2005 [meta sn="MOXA0012345" fw="v3.9"] Port 2 link down
+<28>1 2026-11-16T07:02:17.326Z EDS-408A-line1 moxa-evt 3568 EVT6001 [meta sn="MOXA0023456" fw="v3.11"] Digital input DI4 changed to ON
+<28>1 2026-11-16T07:03:28.686Z EDS-G512E-cell3 moxa-evt 911 EVT6001 [meta sn="MOXA0012345" fw="v3.9"] Digital input DI2 changed to OFF
+<28>1 2026-11-16T07:04:26.845Z EDS-G512E-cell3 moxa-evt 558 EVT3010 [meta sn="MOXA0012345" fw="v3.9"] Turbo Ring: ring break detected on port 5 ring_id=1
+<28>1 2026-11-16T07:05:23.767Z TN-4516A-core moxa-evt 1251 EVT2005 [meta sn="MOXA0056789" fw="v3.6"] Port 1 link down
+<30>1 2026-11-16T07:06:50.859Z MGate-5109-line2 moxa-evt 278 EVT2006 [meta sn="MOXA0045678" fw="v4.3"] Port 8 link up speed=1000M duplex=full
+<28>1 2026-11-16T07:07:44.037Z EDS-408A-line1 moxa-evt 659 EVT4001 [meta sn="MOXA0023456" fw="v3.11"] Modbus timeout serial_port=1 slave_id=6 count=3
+<28>1 2026-11-16T07:09:06.723Z EDS-408A-line1 moxa-evt 2678 EVT4001 [meta sn="MOXA0023456" fw="v3.11"] Modbus timeout serial_port=2 slave_id=30 count=3
+<29>1 2026-11-16T07:09:42.284Z EDS-408A-line1 moxa-evt 347 EVT3011 [meta sn="MOXA0023456" fw="v3.11"] Turbo Ring: ring recovered ring_id=1 role=master
+<28>1 2026-11-16T07:10:37.595Z MGate-5105-line1 moxa-evt 144 EVT2005 [meta sn="MOXA0034567" fw="v4.2"] Port 8 link down
+<28>1 2026-11-16T07:11:57.363Z MGate-5105-line1 moxa-evt 2671 EVT4001 [meta sn="MOXA0034567" fw="v4.2"] Modbus timeout serial_port=4 slave_id=14 count=4
+<30>1 2026-11-16T07:12:50.031Z EDS-408A-line1 moxa-evt 3313 EVT2006 [meta sn="MOXA0023456" fw="v3.11"] Port 1 link up speed=100M duplex=full
+<30>1 2026-11-16T07:13:49.791Z MGate-5109-line2 moxa-evt 539 EVT4002 [meta sn="MOXA0045678" fw="v4.3"] Modbus TCP connection accepted client=10.40.8.18 port=502
+<28>1 2026-11-16T07:15:01.717Z EDS-408A-line1 moxa-evt 770 EVT2005 [meta sn="MOXA0023456" fw="v3.11"] Port 8 link down
+<30>1 2026-11-16T07:15:39.170Z MGate-5109-line2 moxa-evt 1260 EVT4002 [meta sn="MOXA0045678" fw="v4.3"] Modbus TCP connection accepted client=10.40.8.15 port=502
+<28>1 2026-11-16T07:16:08.847Z MGate-5109-line2 moxa-evt 2020 EVT2005 [meta sn="MOXA0045678" fw="v4.3"] Port 6 link down
+<30>1 2026-11-16T07:16:39.402Z MGate-5109-line2 moxa-evt 1609 EVT2006 [meta sn="MOXA0045678" fw="v4.3"] Port 7 link up speed=100M duplex=full
+<30>1 2026-11-16T07:18:01.074Z MGate-5105-line1 moxa-evt 2270 EVT4002 [meta sn="MOXA0034567" fw="v4.2"] Modbus TCP connection accepted client=10.40.8.12 port=502
+<29>1 2026-11-16T07:18:51.652Z MGate-5105-line1 moxa-evt 3004 EVT3011 [meta sn="MOXA0034567" fw="v4.2"] Turbo Ring: ring recovered ring_id=1 role=master
+<28>1 2026-11-16T07:20:13.884Z EDS-408A-line1 moxa-evt 1984 EVT4001 [meta sn="MOXA0023456" fw="v3.11"] Modbus timeout serial_port=4 slave_id=22 count=1
+<28>1 2026-11-16T07:21:24.441Z EDS-408A-line1 moxa-evt 2975 EVT2005 [meta sn="MOXA0023456" fw="v3.11"] Port 8 link down
+<30>1 2026-11-16T07:22:11.911Z EDS-408A-line1 moxa-evt 602 EVT2006 [meta sn="MOXA0023456" fw="v3.11"] Port 7 link up speed=100M duplex=full
+<28>1 2026-11-16T07:23:02.292Z TN-4516A-core moxa-evt 3890 EVT4001 [meta sn="MOXA0056789" fw="v3.6"] Modbus timeout serial_port=1 slave_id=27 count=5
+<30>1 2026-11-16T07:23:53.552Z MGate-5109-line2 moxa-evt 3678 EVT2006 [meta sn="MOXA0045678" fw="v4.3"] Port 1 link up speed=1000M duplex=full
+<28>1 2026-11-16T07:25:02.408Z MGate-5105-line1 moxa-evt 846 EVT2005 [meta sn="MOXA0034567" fw="v4.2"] Port 5 link down
+<28>1 2026-11-16T07:26:13.271Z EDS-408A-line1 moxa-evt 2513 EVT4001 [meta sn="MOXA0023456" fw="v3.11"] Modbus timeout serial_port=2 slave_id=28 count=5
+<28>1 2026-11-16T07:26:38.487Z MGate-5105-line1 moxa-evt 184 EVT2005 [meta sn="MOXA0034567" fw="v4.2"] Port 8 link down
+<29>1 2026-11-16T07:27:29.957Z TN-4516A-core moxa-evt 3848 EVT5002 [meta sn="MOXA0056789" fw="v3.6"] Configuration changed by user=root via ssh
+<30>1 2026-11-16T07:28:02.850Z MGate-5109-line2 moxa-evt 1535 EVT2006 [meta sn="MOXA0045678" fw="v4.3"] Port 2 link up speed=1000M duplex=full
+<28>1 2026-11-16T07:29:33.582Z EDS-G512E-cell3 moxa-evt 3740 EVT3010 [meta sn="MOXA0012345" fw="v3.9"] Turbo Ring: ring break detected on port 6 ring_id=1
+<29>1 2026-11-16T07:30:51.996Z TN-4516A-core moxa-evt 3873 EVT3011 [meta sn="MOXA0056789" fw="v3.6"] Turbo Ring: ring recovered ring_id=1 role=master

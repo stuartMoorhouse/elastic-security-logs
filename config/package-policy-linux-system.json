@@ -1,0 +1,22 @@
+{
+  "name": "linux-system-logs",
+  "description": "Linux auth and syslog files (logs only, metrics disabled)",
+  "namespace": "default",
+  "policy_ids": ["__POLICY_ID__"],
+  "package": {
+    "name": "system",
+    "version": "__PKG_VERSION__"
+  },
+  "inputs": {
+    "system-logfile": {
+      "enabled": true,
+      "streams": {
+        "system.auth": { "enabled": true },
+        "system.syslog": { "enabled": true }
+      }
+    },
+    "system-winlog": { "enabled": false },
+    "system-system/metrics": { "enabled": false },
+    "system-journald": { "enabled": false }
+  }
+}

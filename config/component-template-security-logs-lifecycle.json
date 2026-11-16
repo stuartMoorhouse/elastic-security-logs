@@ -1,0 +1,11 @@
+{
+  "template": {
+    "lifecycle": {
+      "data_retention": "90d"
+    }
+  },
+  "_meta": {
+    "description": "Data stream lifecycle (Serverless has no ILM): delete after 90d. PUT this same body to each @custom component template listed in config/README.md.",
+    "project": "elastic-security-logs"
+  }
+}

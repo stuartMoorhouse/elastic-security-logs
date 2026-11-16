@@ -1,0 +1,23 @@
+{
+  "name": "windows-system-logs",
+  "description": "Windows Security, System and Application event logs via the System integration (logs only, metrics disabled)",
+  "namespace": "default",
+  "policy_ids": ["__POLICY_ID__"],
+  "package": {
+    "name": "system",
+    "version": "__PKG_VERSION__"
+  },
+  "inputs": {
+    "system-logfile": { "enabled": false },
+    "system-winlog": {
+      "enabled": true,
+      "streams": {
+        "system.security": { "enabled": true },
+        "system.application": { "enabled": true },
+        "system.system": { "enabled": true }
+      }
+    },
+    "system-system/metrics": { "enabled": false },
+    "system-journald": { "enabled": false }
+  }
+}

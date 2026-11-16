@@ -1,0 +1,23 @@
+{
+  "name": "linux-auditd-manager",
+  "description": "Auditd Manager: process execution, identity file changes, privilege use",
+  "namespace": "default",
+  "policy_ids": ["__POLICY_ID__"],
+  "package": {
+    "name": "auditd_manager",
+    "version": "__PKG_VERSION__"
+  },
+  "inputs": {
+    "auditd-audit/auditd": {
+      "enabled": true,
+      "streams": {
+        "auditd_manager.auditd": {
+          "enabled": true,
+          "vars": {
+            "audit_rules": "-a always,exit -F arch=b64 -S execve -k exec\n-w /etc/passwd -p wa -k identity\n-w /etc/shadow -p wa -k identity\n-w /etc/group -p wa -k identity\n-w /etc/sudoers -p wa -k privilege\n-w /etc/ssh/sshd_config -p wa -k sshd_config\n"
+          }
+        }
+      }
+    }
+  }
+}

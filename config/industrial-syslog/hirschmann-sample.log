@@ -1,0 +1,200 @@
+<132>Nov 16 04:22:53 MSP30-core-sw HM2-IFMGR: Port 1/3 link down
+<134>Nov 16 04:23:29 MSP30-core-sw HM2-IFMGR: Port 1/4 link up (100 Mbit/s full duplex)
+<131>Nov 16 04:23:58 GRS1042-cell3-gw HM2-MRP: Ring 1: redundancy lost, ring port 1/1 down
+<133>Nov 16 04:24:27 GRS1042-cell3-gw HM2-MRP: Ring 1: ring closed, redundancy restored, role manager
+<132>Nov 16 04:25:44 BRS30-line2-sw HM2-USER: Login failed for user 'admin' from 10.40.5.21 (ssh)
+<134>Nov 16 04:27:15 GRS1042-cell3-gw HM2-USER: User 'service' logged in from 10.40.5.21 (snmp)
+<133>Nov 16 04:27:35 BRS30-line2-sw HM2-CFG: Configuration saved to NVM by user 'service'
+<133>Nov 16 04:28:15 BRS30-line2-sw HM2-CFG: Firmware update to HiOS-2A-09.4.01 initiated by user 'admin'
+<132>Nov 16 04:29:34 RSP20-plant1-sw02 HM2-PORTSEC: Port 1/8 violation, unauthorized MAC af:87:f5:52:0b:69 dropped
+<133>Nov 16 04:30:40 BRS30-line2-sw HM2-STP: Topology change on instance 0, root bridge 8000.0e0e8ff18463
+<130>Nov 16 04:31:45 BRS30-line2-sw HM2-PWR: Power supply 1 failed
+<133>Nov 16 04:32:47 RSP35-plant1-sw01 HM2-PWR: Power supply 1 restored
+<133>Nov 16 04:34:15 MSP30-core-sw HM2-SYS: Cold start, firmware HiOS-2A-09.4.02
+<132>Nov 16 04:35:40 RSP35-plant1-sw01 HM2-PORTSEC: Port 1/3 violation, unauthorized MAC 3d:1f:a6:f7:36:1d dropped
+<132>Nov 16 04:36:56 RSP20-plant1-sw02 HM2-USER: Login failed for user 'root' from 10.40.5.21 (snmp)
+<132>Nov 16 04:37:55 GRS1042-cell3-gw HM2-IFMGR: Port 1/3 link down
+<134>Nov 16 04:38:27 BRS30-line2-sw HM2-IFMGR: Port 1/6 link up (1000 Mbit/s full duplex)
+<132>Nov 16 04:39:20 RSP35-plant1-sw01 HM2-IFMGR: Port 1/8 link down
+<134>Nov 16 04:40:24 GRS1042-cell3-gw HM2-IFMGR: Port 1/5 link up (100 Mbit/s full duplex)
+<132>Nov 16 04:40:46 RSP20-plant1-sw02 HM2-IFMGR: Port 1/1 link down
+<132>Nov 16 04:41:07 MSP30-core-sw HM2-USER: Login failed for user 'admin' from 198.51.100.77 (snmp)
+<132>Nov 16 04:42:08 BRS30-line2-sw HM2-IFMGR: Port 1/5 link down
+<134>Nov 16 04:42:31 RSP35-plant1-sw01 HM2-IFMGR: Port 1/4 link up (100 Mbit/s full duplex)
+<134>Nov 16 04:43:08 RSP20-plant1-sw02 HM2-IFMGR: Port 1/2 link up (1000 Mbit/s full duplex)
+<134>Nov 16 04:43:55 GRS1042-cell3-gw HM2-USER: User 'operator' logged in from 10.40.5.20 (web)
+<132>Nov 16 04:44:27 BRS30-line2-sw HM2-IFMGR: Port 1/8 link down
+<133>Nov 16 04:45:14 BRS30-line2-sw HM2-STP: Topology change on instance 0, root bridge 8000.76fef8c90c51
+<134>Nov 16 04:46:32 BRS30-line2-sw HM2-IFMGR: Port 1/3 link up (1000 Mbit/s full duplex)
+<133>Nov 16 04:47:01 RSP35-plant1-sw01 HM2-STP: Topology change on instance 0, root bridge 8000.61bfdb0ecc68
+<132>Nov 16 04:48:14 RSP20-plant1-sw02 HM2-USER: Login failed for user 'root' from 203.0.113.45 (ssh)
+<131>Nov 16 04:48:43 BRS30-line2-sw HM2-MRP: Ring 1: redundancy lost, ring port 1/8 down
+<134>Nov 16 04:49:52 RSP20-plant1-sw02 HM2-USER: User 'operator' logged in from 10.40.5.21 (ssh)
+<134>Nov 16 04:50:17 RSP20-plant1-sw02 HM2-USER: User 'admin' logged in from 10.40.5.20 (web)
+<134>Nov 16 04:50:41 GRS1042-cell3-gw HM2-USER: User 'service' logged in from 10.40.5.22 (web)
+<133>Nov 16 04:51:33 GRS1042-cell3-gw HM2-MRP: Ring 1: ring closed, redundancy restored, role manager
+<134>Nov 16 04:52:46 RSP20-plant1-sw02 HM2-USER: User 'operator' logged in from 10.40.5.22 (snmp)
+<133>Nov 16 04:54:09 RSP20-plant1-sw02 HM2-STP: Topology change on instance 0, root bridge 8000.e6a0392854a8
+<131>Nov 16 04:55:36 RSP35-plant1-sw01 HM2-MRP: Ring 1: redundancy lost, ring port 1/5 down
+<131>Nov 16 04:56:03 RSP35-plant1-sw01 HM2-MRP: Ring 1: redundancy lost, ring port 1/6 down
+<134>Nov 16 04:57:06 RSP20-plant1-sw02 HM2-IFMGR: Port 1/1 link up (1000 Mbit/s full duplex)
+<132>Nov 16 04:58:30 BRS30-line2-sw HM2-IFMGR: Port 1/5 link down
+<134>Nov 16 04:59:03 GRS1042-cell3-gw HM2-IFMGR: Port 1/2 link up (100 Mbit/s full duplex)
+<134>Nov 16 04:59:56 RSP20-plant1-sw02 HM2-IFMGR: Port 1/3 link up (100 Mbit/s full duplex)
+<134>Nov 16 05:01:14 RSP20-plant1-sw02 HM2-IFMGR: Port 1/5 link up (100 Mbit/s full duplex)
+<133>Nov 16 05:01:39 MSP30-core-sw HM2-SYS: Cold start, firmware HiOS-2A-09.4.03
+<132>Nov 16 05:02:11 RSP20-plant1-sw02 HM2-IFMGR: Port 1/5 link down
+<132>Nov 16 05:03:25 BRS30-line2-sw HM2-PORTSEC: Port 1/7 violation, unauthorized MAC 1a:48:cb:2d:bd:57 dropped
+<133>Nov 16 05:04:48 BRS30-line2-sw HM2-CFG: Configuration saved to NVM by user 'admin'
+<132>Nov 16 05:05:53 RSP20-plant1-sw02 HM2-IFMGR: Port 1/4 link down
+<132>Nov 16 05:06:15 GRS1042-cell3-gw HM2-USER: Login failed for user 'admin' from 198.51.100.77 (ssh)
+<132>Nov 16 05:07:40 BRS30-line2-sw HM2-IFMGR: Port 1/7 link down
+<131>Nov 16 05:08:18 RSP35-plant1-sw01 HM2-MRP: Ring 1: redundancy lost, ring port 1/8 down
+<132>Nov 16 05:09:45 GRS1042-cell3-gw HM2-USER: Login failed for user 'guest' from 10.40.5.22 (ssh)
+<134>Nov 16 05:11:11 GRS1042-cell3-gw HM2-IFMGR: Port 1/6 link up (100 Mbit/s full duplex)
+<134>Nov 16 05:11:45 BRS30-line2-sw HM2-IFMGR: Port 1/4 link up (1000 Mbit/s full duplex)
+<132>Nov 16 05:12:39 MSP30-core-sw HM2-IFMGR: Port 1/6 link down
+<133>Nov 16 05:14:10 RSP20-plant1-sw02 HM2-STP: Topology change on instance 0, root bridge 8000.f403c0dfee29
+<134>Nov 16 05:14:58 GRS1042-cell3-gw HM2-IFMGR: Port 1/1 link up (100 Mbit/s full duplex)
+<134>Nov 16 05:15:43 RSP35-plant1-sw01 HM2-IFMGR: Port 1/4 link up (1000 Mbit/s full duplex)
+<132>Nov 16 05:16:17 RSP35-plant1-sw01 HM2-USER: Login failed for user 'admin' from 10.40.5.20 (ssh)
+<132>Nov 16 05:16:42 MSP30-core-sw HM2-PORTSEC: Port 1/2 violation, unauthorized MAC 68:96:a3:ac:d8:85 dropped
+<132>Nov 16 05:18:06 GRS1042-cell3-gw HM2-PORTSEC: Port 1/1 violation, unauthorized MAC b1:f0:18:6e:2e:93 dropped
+<131>Nov 16 05:19:28 BRS30-line2-sw HM2-MRP: Ring 1: redundancy lost, ring port 1/3 down
+<133>Nov 16 05:20:39 MSP30-core-sw HM2-STP: Topology change on instance 0, root bridge 8000.eb4011b2a74f
+<134>Nov 16 05:21:40 GRS1042-cell3-gw HM2-IFMGR: Port 1/5 link up (100 Mbit/s full duplex)
+<133>Nov 16 05:22:13 BRS30-line2-sw HM2-STP: Topology change on instance 0, root bridge 8000.8f69c6ed1106
+<133>Nov 16 05:23:02 RSP35-plant1-sw01 HM2-PWR: Power supply 2 restored
+<133>Nov 16 05:24:15 RSP35-plant1-sw01 HM2-CFG: Configuration saved to NVM by user 'operator'
+<132>Nov 16 05:25:34 RSP35-plant1-sw01 HM2-IFMGR: Port 1/8 link down
+<133>Nov 16 05:26:03 BRS30-line2-sw HM2-STP: Topology change on instance 0, root bridge 8000.422362f0734a
+<133>Nov 16 05:27:23 BRS30-line2-sw HM2-CFG: Configuration saved to NVM by user 'operator'
+<133>Nov 16 05:27:53 BRS30-line2-sw HM2-STP: Topology change on instance 0, root bridge 8000.249680334977
+<132>Nov 16 05:28:58 BRS30-line2-sw HM2-IFMGR: Port 1/7 link down
+<131>Nov 16 05:29:25 RSP35-plant1-sw01 HM2-MRP: Ring 1: redundancy lost, ring port 1/3 down
+<132>Nov 16 05:29:48 BRS30-line2-sw HM2-IFMGR: Port 1/6 link down
+<132>Nov 16 05:30:41 MSP30-core-sw HM2-IFMGR: Port 1/5 link down
+<132>Nov 16 05:31:52 RSP35-plant1-sw01 HM2-USER: Login failed for user 'admin' from 203.0.113.45 (web)
+<132>Nov 16 05:33:00 MSP30-core-sw HM2-PORTSEC: Port 1/5 violation, unauthorized MAC a3:0a:dc:1b:fe:14 dropped
+<133>Nov 16 05:33:40 BRS30-line2-sw HM2-CFG: Configuration saved to NVM by user 'service'
+<132>Nov 16 05:34:24 BRS30-line2-sw HM2-IFMGR: Port 1/3 link down
+<134>Nov 16 05:34:51 RSP20-plant1-sw02 HM2-IFMGR: Port 1/8 link up (1000 Mbit/s full duplex)
+<134>Nov 16 05:35:50 GRS1042-cell3-gw HM2-IFMGR: Port 1/4 link up (1000 Mbit/s full duplex)
+<133>Nov 16 05:37:21 MSP30-core-sw HM2-CFG: Configuration saved to NVM by user 'service'
+<133>Nov 16 05:37:53 RSP20-plant1-sw02 HM2-CFG: Firmware update to HiOS-2A-09.4.02 initiated by user 'operator'
+<133>Nov 16 05:38:19 BRS30-line2-sw HM2-SYS: Cold start, firmware HiOS-2A-09.4.01
+<134>Nov 16 05:38:52 GRS1042-cell3-gw HM2-IFMGR: Port 1/3 link up (1000 Mbit/s full duplex)
+<132>Nov 16 05:39:41 GRS1042-cell3-gw HM2-IFMGR: Port 1/7 link down
+<132>Nov 16 05:40:02 RSP20-plant1-sw02 HM2-IFMGR: Port 1/5 link down
+<133>Nov 16 05:40:26 GRS1042-cell3-gw HM2-STP: Topology change on instance 0, root bridge 8000.ada577f43bbb
+<132>Nov 16 05:41:15 BRS30-line2-sw HM2-IFMGR: Port 1/8 link down
+<133>Nov 16 05:41:49 GRS1042-cell3-gw HM2-PWR: Power supply 1 restored
+<132>Nov 16 05:42:28 MSP30-core-sw HM2-IFMGR: Port 1/6 link down
+<132>Nov 16 05:42:59 BRS30-line2-sw HM2-IFMGR: Port 1/8 link down
+<132>Nov 16 05:44:20 RSP35-plant1-sw01 HM2-PORTSEC: Port 1/5 violation, unauthorized MAC 53:be:02:b6:e4:24 dropped
+<133>Nov 16 05:45:43 BRS30-line2-sw HM2-MRP: Ring 1: ring closed, redundancy restored, role manager
+<132>Nov 16 05:46:17 BRS30-line2-sw HM2-PORTSEC: Port 1/3 violation, unauthorized MAC 8f:38:3e:3e:cf:46 dropped
+<132>Nov 16 05:47:30 RSP35-plant1-sw01 HM2-PORTSEC: Port 1/1 violation, unauthorized MAC 7b:ab:df:a4:cd:1b dropped
+<132>Nov 16 05:48:58 MSP30-core-sw HM2-IFMGR: Port 1/7 link down
+<132>Nov 16 05:49:19 GRS1042-cell3-gw HM2-IFMGR: Port 1/1 link down
+<132>Nov 16 05:50:11 MSP30-core-sw HM2-IFMGR: Port 1/5 link down
+<130>Nov 16 05:51:40 MSP30-core-sw HM2-PWR: Power supply 1 failed
+<134>Nov 16 05:52:50 MSP30-core-sw HM2-IFMGR: Port 1/2 link up (100 Mbit/s full duplex)
+<134>Nov 16 05:53:26 BRS30-line2-sw HM2-IFMGR: Port 1/3 link up (1000 Mbit/s full duplex)
+<133>Nov 16 05:54:24 MSP30-core-sw HM2-MRP: Ring 1: ring closed, redundancy restored, role manager
+<132>Nov 16 05:55:23 BRS30-line2-sw HM2-USER: Login failed for user 'root' from 203.0.113.45 (snmp)
+<132>Nov 16 05:56:40 GRS1042-cell3-gw HM2-USER: Login failed for user 'admin' from 198.51.100.77 (ssh)
+<134>Nov 16 05:57:06 RSP20-plant1-sw02 HM2-IFMGR: Port 1/1 link up (1000 Mbit/s full duplex)
+<133>Nov 16 05:57:46 RSP35-plant1-sw01 HM2-CFG: Configuration saved to NVM by user 'admin'
+<132>Nov 16 05:58:15 BRS30-line2-sw HM2-IFMGR: Port 1/7 link down
+<132>Nov 16 05:59:08 RSP35-plant1-sw01 HM2-PORTSEC: Port 1/2 violation, unauthorized MAC 71:d3:9e:cc:f8:0b dropped
+<132>Nov 16 06:00:05 GRS1042-cell3-gw HM2-USER: Login failed for user 'guest' from 10.40.5.21 (web)
+<133>Nov 16 06:00:28 MSP30-core-sw HM2-CFG: Configuration saved to NVM by user 'admin'
+<132>Nov 16 06:01:15 RSP35-plant1-sw01 HM2-PORTSEC: Port 1/3 violation, unauthorized MAC 7e:ce:6c:40:3e:2e dropped
+<132>Nov 16 06:01:57 BRS30-line2-sw HM2-PORTSEC: Port 1/6 violation, unauthorized MAC b9:98:62:21:9f:2d dropped
+<134>Nov 16 06:02:34 BRS30-line2-sw HM2-IFMGR: Port 1/1 link up (1000 Mbit/s full duplex)
+<132>Nov 16 06:03:00 RSP35-plant1-sw01 HM2-IFMGR: Port 1/4 link down
+<134>Nov 16 06:03:25 RSP20-plant1-sw02 HM2-IFMGR: Port 1/6 link up (100 Mbit/s full duplex)
+<134>Nov 16 06:03:51 BRS30-line2-sw HM2-USER: User 'service' logged in from 10.40.5.20 (snmp)
+<132>Nov 16 06:04:42 RSP35-plant1-sw01 HM2-IFMGR: Port 1/8 link down
+<132>Nov 16 06:05:48 BRS30-line2-sw HM2-IFMGR: Port 1/1 link down
+<134>Nov 16 06:07:10 BRS30-line2-sw HM2-USER: User 'admin' logged in from 10.40.5.22 (web)
+<134>Nov 16 06:07:48 RSP35-plant1-sw01 HM2-IFMGR: Port 1/3 link up (100 Mbit/s full duplex)
+<132>Nov 16 06:09:00 RSP20-plant1-sw02 HM2-IFMGR: Port 1/4 link down
+<132>Nov 16 06:10:07 BRS30-line2-sw HM2-IFMGR: Port 1/7 link down
+<134>Nov 16 06:10:38 BRS30-line2-sw HM2-IFMGR: Port 1/8 link up (1000 Mbit/s full duplex)
+<134>Nov 16 06:11:08 BRS30-line2-sw HM2-USER: User 'operator' logged in from 10.40.5.22 (ssh)
+<134>Nov 16 06:11:58 RSP20-plant1-sw02 HM2-IFMGR: Port 1/2 link up (100 Mbit/s full duplex)
+<132>Nov 16 06:12:24 MSP30-core-sw HM2-IFMGR: Port 1/4 link down
+<134>Nov 16 06:13:52 RSP35-plant1-sw01 HM2-IFMGR: Port 1/8 link up (100 Mbit/s full duplex)
+<134>Nov 16 06:14:22 MSP30-core-sw HM2-IFMGR: Port 1/3 link up (1000 Mbit/s full duplex)
+<131>Nov 16 06:15:33 BRS30-line2-sw HM2-MRP: Ring 1: redundancy lost, ring port 1/3 down
+<132>Nov 16 06:16:38 BRS30-line2-sw HM2-IFMGR: Port 1/8 link down
+<133>Nov 16 06:17:10 RSP20-plant1-sw02 HM2-CFG: Configuration saved to NVM by user 'service'
+<132>Nov 16 06:17:48 BRS30-line2-sw HM2-IFMGR: Port 1/8 link down
+<133>Nov 16 06:18:54 RSP20-plant1-sw02 HM2-CFG: Configuration saved to NVM by user 'operator'
+<132>Nov 16 06:19:44 MSP30-core-sw HM2-IFMGR: Port 1/3 link down
+<132>Nov 16 06:20:47 RSP35-plant1-sw01 HM2-IFMGR: Port 1/7 link down
+<132>Nov 16 06:21:27 RSP35-plant1-sw01 HM2-IFMGR: Port 1/2 link down
+<132>Nov 16 06:22:47 BRS30-line2-sw HM2-USER: Login failed for user 'guest' from 203.0.113.45 (ssh)
+<132>Nov 16 06:24:10 GRS1042-cell3-gw HM2-USER: Login failed for user 'root' from 203.0.113.45 (ssh)
+<132>Nov 16 06:25:25 RSP20-plant1-sw02 HM2-IFMGR: Port 1/4 link down
+<132>Nov 16 06:26:26 MSP30-core-sw HM2-USER: Login failed for user 'guest' from 203.0.113.45 (snmp)
+<134>Nov 16 06:27:31 GRS1042-cell3-gw HM2-USER: User 'admin' logged in from 10.40.5.21 (web)
+<132>Nov 16 06:28:00 GRS1042-cell3-gw HM2-IFMGR: Port 1/8 link down
+<130>Nov 16 06:28:54 RSP20-plant1-sw02 HM2-PWR: Power supply 2 failed
+<134>Nov 16 06:30:04 MSP30-core-sw HM2-IFMGR: Port 1/7 link up (100 Mbit/s full duplex)
+<134>Nov 16 06:30:24 MSP30-core-sw HM2-USER: User 'service' logged in from 10.40.5.22 (web)
+<132>Nov 16 06:31:12 BRS30-line2-sw HM2-IFMGR: Port 1/6 link down
+<134>Nov 16 06:31:46 MSP30-core-sw HM2-IFMGR: Port 1/5 link up (1000 Mbit/s full duplex)
+<134>Nov 16 06:32:50 BRS30-line2-sw HM2-IFMGR: Port 1/1 link up (100 Mbit/s full duplex)
+<133>Nov 16 06:33:47 RSP35-plant1-sw01 HM2-CFG: Configuration saved to NVM by user 'operator'
+<134>Nov 16 06:34:18 RSP20-plant1-sw02 HM2-IFMGR: Port 1/7 link up (1000 Mbit/s full duplex)
+<132>Nov 16 06:35:30 MSP30-core-sw HM2-IFMGR: Port 1/5 link down
+<132>Nov 16 06:36:43 GRS1042-cell3-gw HM2-USER: Login failed for user 'guest' from 198.51.100.77 (ssh)
+<134>Nov 16 06:37:35 BRS30-line2-sw HM2-IFMGR: Port 1/7 link up (1000 Mbit/s full duplex)
+<134>Nov 16 06:38:36 RSP20-plant1-sw02 HM2-IFMGR: Port 1/8 link up (1000 Mbit/s full duplex)
+<134>Nov 16 06:38:58 GRS1042-cell3-gw HM2-USER: User 'admin' logged in from 10.40.5.22 (snmp)
+<134>Nov 16 06:40:15 RSP20-plant1-sw02 HM2-IFMGR: Port 1/1 link up (100 Mbit/s full duplex)
+<132>Nov 16 06:41:12 RSP20-plant1-sw02 HM2-USER: Login failed for user 'root' from 203.0.113.45 (web)
+<132>Nov 16 06:42:35 BRS30-line2-sw HM2-PORTSEC: Port 1/2 violation, unauthorized MAC 99:10:33:00:b0:63 dropped
+<134>Nov 16 06:43:26 MSP30-core-sw HM2-USER: User 'operator' logged in from 10.40.5.20 (snmp)
+<134>Nov 16 06:44:31 GRS1042-cell3-gw HM2-IFMGR: Port 1/3 link up (1000 Mbit/s full duplex)
+<132>Nov 16 06:45:50 RSP20-plant1-sw02 HM2-IFMGR: Port 1/1 link down
+<134>Nov 16 06:46:43 RSP35-plant1-sw01 HM2-IFMGR: Port 1/2 link up (1000 Mbit/s full duplex)
+<133>Nov 16 06:48:03 RSP35-plant1-sw01 HM2-STP: Topology change on instance 0, root bridge 8000.686570a92201
+<133>Nov 16 06:49:26 BRS30-line2-sw HM2-CFG: Configuration saved to NVM by user 'admin'
+<134>Nov 16 06:50:52 GRS1042-cell3-gw HM2-USER: User 'operator' logged in from 10.40.5.20 (ssh)
+<131>Nov 16 06:51:12 GRS1042-cell3-gw HM2-MRP: Ring 1: redundancy lost, ring port 1/1 down
+<132>Nov 16 06:51:56 BRS30-line2-sw HM2-PORTSEC: Port 1/7 violation, unauthorized MAC 15:c0:5e:c7:8a:aa dropped
+<132>Nov 16 06:52:57 BRS30-line2-sw HM2-PORTSEC: Port 1/4 violation, unauthorized MAC 59:35:7d:e8:80:b4 dropped
+<134>Nov 16 06:53:52 BRS30-line2-sw HM2-IFMGR: Port 1/5 link up (1000 Mbit/s full duplex)
+<133>Nov 16 06:54:29 GRS1042-cell3-gw HM2-STP: Topology change on instance 0, root bridge 8000.0dd7d02bc2fc
+<132>Nov 16 06:55:30 RSP20-plant1-sw02 HM2-PORTSEC: Port 1/8 violation, unauthorized MAC 1f:53:9d:57:9f:1b dropped
+<134>Nov 16 06:56:32 RSP35-plant1-sw01 HM2-IFMGR: Port 1/2 link up (1000 Mbit/s full duplex)
+<134>Nov 16 06:57:27 RSP20-plant1-sw02 HM2-IFMGR: Port 1/7 link up (1000 Mbit/s full duplex)
+<134>Nov 16 06:58:03 BRS30-line2-sw HM2-IFMGR: Port 1/6 link up (1000 Mbit/s full duplex)
+<134>Nov 16 06:58:51 RSP35-plant1-sw01 HM2-USER: User 'admin' logged in from 10.40.5.22 (ssh)
+<132>Nov 16 06:59:57 RSP20-plant1-sw02 HM2-USER: Login failed for user 'admin' from 10.40.5.20 (ssh)
+<133>Nov 16 07:00:55 MSP30-core-sw HM2-STP: Topology change on instance 0, root bridge 8000.bf208c2d39cc
+<134>Nov 16 07:02:07 RSP20-plant1-sw02 HM2-USER: User 'service' logged in from 10.40.5.21 (snmp)
+<133>Nov 16 07:02:37 MSP30-core-sw HM2-STP: Topology change on instance 0, root bridge 8000.b569d50687b5
+<134>Nov 16 07:03:37 RSP35-plant1-sw01 HM2-IFMGR: Port 1/1 link up (100 Mbit/s full duplex)
+<134>Nov 16 07:05:05 RSP35-plant1-sw01 HM2-IFMGR: Port 1/7 link up (100 Mbit/s full duplex)
+<133>Nov 16 07:05:36 BRS30-line2-sw HM2-CFG: Configuration saved to NVM by user 'operator'
+<132>Nov 16 07:06:53 RSP35-plant1-sw01 HM2-IFMGR: Port 1/1 link down
+<133>Nov 16 07:07:44 RSP20-plant1-sw02 HM2-STP: Topology change on instance 0, root bridge 8000.4eef09f53531
+<132>Nov 16 07:09:11 RSP35-plant1-sw01 HM2-USER: Login failed for user 'guest' from 10.40.5.21 (ssh)
+<134>Nov 16 07:09:58 RSP20-plant1-sw02 HM2-IFMGR: Port 1/2 link up (100 Mbit/s full duplex)
+<132>Nov 16 07:10:18 GRS1042-cell3-gw HM2-IFMGR: Port 1/2 link down
+<134>Nov 16 07:11:17 GRS1042-cell3-gw HM2-IFMGR: Port 1/6 link up (1000 Mbit/s full duplex)
+<132>Nov 16 07:11:47 GRS1042-cell3-gw HM2-IFMGR: Port 1/1 link down
+<132>Nov 16 07:13:03 GRS1042-cell3-gw HM2-IFMGR: Port 1/3 link down
+<134>Nov 16 07:13:32 BRS30-line2-sw HM2-USER: User 'operator' logged in from 10.40.5.20 (ssh)
+<132>Nov 16 07:14:36 RSP35-plant1-sw01 HM2-PORTSEC: Port 1/1 violation, unauthorized MAC ab:8e:05:61:25:2d dropped
+<134>Nov 16 07:15:03 RSP20-plant1-sw02 HM2-IFMGR: Port 1/2 link up (100 Mbit/s full duplex)
+<134>Nov 16 07:16:00 BRS30-line2-sw HM2-IFMGR: Port 1/1 link up (100 Mbit/s full duplex)
+<132>Nov 16 07:17:22 GRS1042-cell3-gw HM2-IFMGR: Port 1/8 link down
+<131>Nov 16 07:17:49 RSP20-plant1-sw02 HM2-MRP: Ring 1: redundancy lost, ring port 1/8 down
+<134>Nov 16 07:18:19 GRS1042-cell3-gw HM2-IFMGR: Port 1/6 link up (100 Mbit/s full duplex)
+<133>Nov 16 07:18:57 MSP30-core-sw HM2-CFG: Configuration saved to NVM by user 'operator'
