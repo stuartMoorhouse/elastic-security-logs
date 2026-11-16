@@ -59,6 +59,9 @@ DV="dv-industrial"
 DVB="$(tmp_json "{\"data_view\":{\"id\":\"$DV\",\"title\":\"logs-${PKG}.*\",\"name\":\"Industrial switches and gateways\",\"timeFieldName\":\"@timestamp\"},\"override\":true}")"
 kb POST "/api/data_views/data_view" "$DVB" >/dev/null && echo "ok: data view $DV (logs-${PKG}.*)"
 rm -f "$DVB"
+TAGB="$(tmp_json '{"attributes":{"name":"security-logs-demo","description":"Objects created by the security logs demo","color":"#E7664C"}}')"
+kb POST "/api/saved_objects/tag/tag-security-logs-demo?overwrite=true" "$TAGB" >/dev/null && echo "ok: tag security-logs-demo"
+rm -f "$TAGB"
 save_search() { # save_search <id> <title> <kql>
   local b; b="$(tmp_json "$(python3 - "$DV" "$2" "$3" <<'PY'
 import json, sys
@@ -66,7 +69,7 @@ dv, title, kql = sys.argv[1:4]
 src = {"query": {"query": kql, "language": "kuery"}, "filter": [], "indexRefName": "kibanaSavedObjectMeta.searchSourceJSON.index"}
 print(json.dumps({"attributes": {"title": title, "columns": ["host.name", "event.original"], "sort": [["@timestamp", "desc"]],
   "kibanaSavedObjectMeta": {"searchSourceJSON": json.dumps(src)}},
-  "references": [{"name": "kibanaSavedObjectMeta.searchSourceJSON.index", "type": "index-pattern", "id": dv}]}))
+  "references": [{"name": "kibanaSavedObjectMeta.searchSourceJSON.index", "type": "index-pattern", "id": dv}, {"name": "tag-ref-1", "type": "tag", "id": "tag-security-logs-demo"}]}))
 PY
 )")"
   kb POST "/api/saved_objects/search/$1?overwrite=true" "$b" >/dev/null && echo "ok: saved search $1"

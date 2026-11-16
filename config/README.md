@@ -12,7 +12,7 @@ Placeholders replaced by the script: `__POLICY_ID__` (Fleet agent policy id), `_
 | `package-policy-windows-system.json` | System integration on Windows: Security, System, Application event logs | `POST /api/fleet/package_policies` |
 | `package-policy-windows.json` | Windows integration: Sysmon Operational and PowerShell Operational | `POST /api/fleet/package_policies` |
 | `kibana-data-views.ndjson` | Data views `dv-logs-all`, `dv-logs-system`, `dv-logs-windows`, `dv-logs-auditd` | `POST /api/saved_objects/_import?overwrite=true` (multipart, header `kbn-xsrf`) |
-| `saved-searches.ndjson` | Discover saved searches: failed logons, sudo usage, PowerShell activity, new processes (reference `dv-logs-all`; import after the data views) | `POST /api/saved_objects/_import?overwrite=true` |
+| `saved-searches.ndjson` | `security-logs-demo` tag plus Discover saved searches (tagged): failed logons, sudo usage, PowerShell activity, new processes (reference `dv-logs-all`; import after the data views) | `POST /api/saved_objects/_import?overwrite=true` |
 | `esql-queries.md` | 10 ES|QL queries for Discover (documentation, not imported) | `POST /_query` for verification |
 | `backfill-schema.md` | Field contract for the synthetic backfill generator | none |
 
