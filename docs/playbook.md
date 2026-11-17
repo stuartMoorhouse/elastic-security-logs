@@ -58,6 +58,8 @@ Stay in the **Security logs demo** session and move to the aggregation tabs. Eac
 2. **Brute force (5 min)** (query 4): more than 10 failures from one source in 5 minutes.
 3. **Spray then success** (query 11): password spraying followed by a successful logon, the pipeline form of a
    correlation question.
+4. **Asset inventory**: distinct hosts and data streams seen in the last 30 days, with event counts and first and last
+   seen. Use it to show an asset inventory built from log data (ISO/IEC 27001 5.9, IEC 62443-2-1 CM 1.1).
 
 To show that sessions are reusable, change a query in one tab and use Save to update the session, or Save as new.
 
@@ -74,6 +76,36 @@ Follow the walkthrough in `config/industrial-syslog/README.md`: upload Hirschman
 build the integration, then show the same ECS fields coming out of two different formats. Start the live feed with
 `scripts/send-industrial-syslog.sh start` and show it arriving in Discover. The samples are synthetic approximations
 of the vendor formats, not authentic device captures.
+
+## 6. Standards mapping (reference, not a demo step)
+
+Use this when a prospect asks how the demo relates to ISO/IEC 27001 or IEC 62443. Elastic provides logging, monitoring
+and event-analysis evidence for these controls. It does not make an organization compliant.
+
+IEC 62443-3-3 system requirements (SRs) describe capabilities of the control system itself. In this demo Elastic sits
+outside the control system, so it supports the asset-owner requirements in IEC 62443-2-1 (EVENT, DATA, CM) and gives
+evidence in the 3-3 areas for auditable events (SR 2.x) and timely response to events (SR 6.x).
+
+| What the demo shows | ISO/IEC 27001:2022 Annex A | IEC 62443 |
+|---|---|---|
+| Windows, Linux and auditd logs collected in one place, with ECS fields | 8.15 Logging | 3-3 SR 2.8 Auditable events; 2-1 EVENT 1.4 Logging |
+| Failed logons, brute force and spray-then-success tabs | 8.16 Monitoring activities; 5.25 Assessment of security events | 3-3 SR 6.2 Continuous monitoring; 2-1 EVENT 1.7 Event analysis |
+| Sudo, PowerShell and new-process tabs | 8.15, 8.16 | 3-3 SR 2.8; 2-1 EVENT 1.1 Event detection |
+| 90-day retention on the data streams | 8.15 (logs stored and protected) | 3-3 SR 2.9 Audit storage capacity; 2-1 DATA 1.4 Data retention policy |
+| Searching and pivoting on logs in Discover | 5.28 Collection of evidence | 3-3 SR 6.1 Audit log accessibility |
+| Industrial syslog from Hirschmann and Moxa devices (optional step 5) | 8.16 Monitoring activities | 3-3 SR 6.2; 2-1 NET 3.2 Remote access connections (if remote sessions are logged) |
+| Asset inventory tab | 5.9 Inventory of information and other associated assets | 2-1 CM 1.1 Asset inventory baseline |
+
+Not covered by this demo:
+
+- Zone boundary protection (3-3 SR 5.2) and the zones and conduits model (IEC 62443-3-2). These would need network or
+  firewall logs tagged by security zone.
+- Timestamps and clock synchronization (3-3 SR 2.11, ISO/IEC 27001 8.17). The data has `@timestamp`, but the demo does
+  not show time synchronization of the sources.
+
+Source for the framing: ISAGCA, "Securing Operational Technology: Understanding the ISA/IEC 62443 Series of Standards
+from an ISO/IEC 27001 and ISO/IEC 27002 Perspective" (June 2025). Check requirement numbers and wording against the
+standards before quoting them to a customer.
 
 ## Reset and clean up
 

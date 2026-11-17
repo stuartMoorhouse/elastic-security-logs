@@ -12,7 +12,7 @@ Placeholders replaced by the script: `__POLICY_ID__` (Fleet agent policy id), `_
 | `package-policy-windows-system.json` | System integration on Windows: Security, System, Application event logs | `POST /api/fleet/package_policies` |
 | `package-policy-windows.json` | Windows integration: Sysmon Operational and PowerShell Operational | `POST /api/fleet/package_policies` |
 | `kibana-data-views.ndjson` | Data views `dv-logs-all`, `dv-logs-system`, `dv-logs-windows`, `dv-logs-auditd` | `POST /api/saved_objects/_import?overwrite=true` (multipart, header `kbn-xsrf`) |
-| `saved-searches.ndjson` | `security-logs-demo` tag plus one tagged Discover session (`Security logs demo`) with one ES|QL query per tab: tabs for failed logons, sudo usage, PowerShell activity, new processes, event volume by OS, brute force and spray-then-success (no data view needed) | `POST /api/saved_objects/_import?overwrite=true` |
+| `saved-searches.ndjson` | `security-logs-demo` tag plus one tagged Discover session (`Security logs demo`) with one ES|QL query per tab: tabs for failed logons, sudo usage, PowerShell activity, new processes, event volume by OS, brute force, spray-then-success and asset inventory (no data view needed) | `POST /api/saved_objects/_import?overwrite=true` |
 | `esql-queries.md` | 10 ES|QL queries for Discover (documentation, not imported) | `POST /_query` for verification |
 | `backfill-schema.md` | Field contract for the synthetic backfill generator | none |
 
